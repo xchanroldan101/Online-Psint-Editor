@@ -80,5 +80,18 @@
         <a href="index.html" class="btn">🏠 Return to Painter</a>
     </div>
 
+    <script>
+  // Check if the current URL contains the typo "Psint"
+  if (window.location.href.includes("Online-Psint-Editor")) {
+    // Show a popup message to the user
+    let userConfirmed = confirm("Did you mean xchanroldan101.github.io/Online-Paint-Editor/?");
+    
+    // If they click 'OK', redirect them automatically
+    if (userConfirmed) {
+      window.location.href = "https://github.io";
+    }
+  }
+    </script>
+    
 </body>
 </html>
